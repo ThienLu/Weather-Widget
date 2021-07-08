@@ -5,7 +5,7 @@ In this website I decided to learn how to use the Angular Framework and also imp
 It grabs data from the API as JSON, parses through the JSON data to grab the relevant portions, converts it to usable data and stores it. Here's what it does specifically:
 - converts the sunset value to a date object and compares it to the current date to figure out if it is day or night in the location.
 - concatenates the location name and country to a single string
-- rounds the main temp value and appends "°C"
+- rounds the main temperature value and appends "°C"
 - stores the current weather as a string
 - uses the timezone value and current time to get the time in that location and update it every second.
 
